@@ -3,7 +3,7 @@
 
 import { fireEvent, screen, within } from '@testing-library/react';
 
-import { POLKADOT_GENESIS } from '@polkadot/apps-config';
+import { KOBOLE_GENESIS } from '@polkadot/apps-config';
 import i18next from '@polkadot/react-components/i18n';
 import { toShortAddress } from '@polkadot/react-components/util/toShortAddress';
 import { AddressFlags } from '@polkadot/react-hooks/types';
@@ -370,7 +370,7 @@ describe('Accounts page', () => {
 
     beforeEach(() => {
       mockApiHooks.setMultisigApprovals([
-        [new TypeRegistry().createType('Hash', POLKADOT_GENESIS), {
+        [new TypeRegistry().createType('Hash', KOBOLE_GENESIS), {
           approvals: [bob as unknown as AccountId],
           deposit: balance(927000000000000),
           depositor: bob as unknown as AccountId,

@@ -84,10 +84,10 @@ function PollApp ({ basePath, className }: Props): React.ReactElement<Props> {
   const blocksLeft = (api.consts.poll.end as BlockNumber).sub(bestNumber);
   const canVote = blocksLeft.gt(BN_ZERO);
   const options: [string, string, boolean, (value: boolean) => void][] = [
-    [t('No change'), t('No change from the original 2017 sale definitions; will mean a total of 10 million DOT from genesis.'), opt10m, setOpt10m],
-    [t('Split of 10x'), t('Split of 10x from the original sale; will mean a total of 100 million DOT from genesis. Apparent DOT price would be 10x lower and apparent account balances 10x higher.'), opt100m, setOpt100m],
-    [t('Split of 100x'), t('Split of 100x from the original sale; will mean a total of 1 billion DOT from genesis. Apparent DOT price would be 100x lower and apparent account balances 100x higher.'), opt1b, setOpt1b],
-    [t('Split of 1000x'), t('Split of 1000x from the original sale; will mean a total of 10 billion DOT from genesis. Apparent DOT price would be 1000x lower and apparent account balances 1000x higher.'), opt10b, setOpt10b]
+    [t('No change'), t('No change from the original 2017 sale definitions; will mean a total of 10 million KOBO from genesis.'), opt10m, setOpt10m],
+    [t('Split of 10x'), t('Split of 10x from the original sale; will mean a total of 100 million KOBO from genesis. Apparent KOBO price would be 10x lower and apparent account balances 10x higher.'), opt100m, setOpt100m],
+    [t('Split of 100x'), t('Split of 100x from the original sale; will mean a total of 1 billion KOBO from genesis. Apparent KOBO price would be 100x lower and apparent account balances 100x higher.'), opt1b, setOpt1b],
+    [t('Split of 1000x'), t('Split of 1000x from the original sale; will mean a total of 10 billion KOBO from genesis. Apparent KOBO price would be 1000x lower and apparent account balances 1000x higher.'), opt10b, setOpt10b]
   ];
   const hasValue = opt10m || opt100m || opt1b || opt10b;
 
@@ -119,8 +119,8 @@ function PollApp ({ basePath, className }: Props): React.ReactElement<Props> {
           </div>
         </div>
         <article className='keepAlive'>
-          <p><Trans key='poll1'>The Polkadot DOT denomination vote: Seventy-two hours after the DOT token becomes transferable, the most popular option from this poll will decide the denomination used for the DOT token.</Trans></p>
-          <p><Trans key='poll2'>This is an <a href='https://en.wikipedia.org/wiki/Approval_voting' rel='noreferrer' target='_blank'>approval vote</a>. There are four options and you may select any combination of them. The most popular of the four will be selected as the final DOT denomination three days after DOT token transfers are enabled.</Trans></p>
+          <p><Trans key='poll1'>The Kobole KOBO denomination vote: Seventy-two hours after the KOBO token becomes transferable, the most popular option from this poll will decide the denomination used for the KOBO token.</Trans></p>
+          <p><Trans key='poll2'>This is an <a href='https://en.wikipedia.org/wiki/Approval_voting' rel='noreferrer' target='_blank'>approval vote</a>. There are four options and you may select any combination of them. The most popular of the four will be selected as the final KOBO denomination three days after KOBO token transfers are enabled.</Trans></p>
           <p><Trans key='poll3'>Please see the <a href='https://medium.com/polkadot-network/the-first-polkadot-vote-1fc1b8bd357b' rel='noreferrer' target='_blank'>Medium article </a> for more information</Trans></p>
           {canVote && (
             <p className='pollAll'><Trans key='poll4'><b>Please vote for any combination of options</b></Trans></p>
@@ -195,9 +195,9 @@ function PollApp ({ basePath, className }: Props): React.ReactElement<Props> {
             <li>{t('All voters may alter their votes any number of times prior to the close of the poll.')}</li>
             <li>{t('Voting costs nothing other than the transaction fee and can be done from all accounts with a non-zero spendable balance.')}</li>
             <li>{t('Locked funds (e.g. for staking) are counted.')}</li>
-            <li>{t('No discretionary lock-voting is in place; all DOT used to vote counts the same.')}</li>
+            <li>{t('No discretionary lock-voting is in place; all KOBO used to vote counts the same.')}</li>
             <li>{t('Voting is made on a per-account basis; a single account must all vote the same way and cannot split its vote.')}</li>
-            <li>{t('This vote does not affect any economics of the Polkadot platform. Staking rewards, inflation, effective market capitalisation and the underlying balances of every account remain completely unchanged. It is "merely" about what units we use to denominate the balances into "DOT" for the purpose of display.')}</li>
+            <li>{t('This vote does not affect any economics of the Kobole platform. Staking rewards, inflation, effective market capitalisation and the underlying balances of every account remain completely unchanged. It is "merely" about what units we use to denominate the balances into "KOBO" for the purpose of display.')}</li>
           </ul>
         </div>
       </div>

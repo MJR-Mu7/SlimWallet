@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 
 import AccountSidebar from '@polkadot/app-accounts/Sidebar';
 import { lightTheme } from '@polkadot/apps/themes';
-import { POLKADOT_GENESIS } from '@polkadot/apps-config';
+import { KOBOLE_GENESIS } from '@polkadot/apps-config';
 import { ApiContext } from '@polkadot/react-api';
 import { ApiProps } from '@polkadot/react-api/types';
 import { QueueProvider } from '@polkadot/react-components/Status/Context';
@@ -153,7 +153,7 @@ export abstract class Page {
           account: noop
         }
       },
-      genesisHash: new TypeRegistry().createType('Hash', POLKADOT_GENESIS),
+      genesisHash: new TypeRegistry().createType('Hash', KOBOLE_GENESIS),
       query: {
         democracy: {
           votingOf: noop

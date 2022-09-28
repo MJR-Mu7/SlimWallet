@@ -1,13 +1,13 @@
 {
-  "bugs": "https://github.com/polkadot-js/apps/issues",
-  "homepage": "https://github.com/polkadot-js/apps/tree/master/packages/page-bounties#readme",
+  "bugs": "https://github.com/MJR-Mu7/Slimwallet/issues",
+  "homepage": "https://github.com/MJR-Mu7/Slimwallet/tree/master/packages/page-bounties#readme",
   "license": "Apache-2.0",
   "name": "@polkadot/app-bounties",
   "private": true,
   "repository": {
     "directory": "packages/page-bounties",
     "type": "git",
-    "url": "https://github.com/polkadot-js/apps.git"
+    "url": "https://github.com/MJR-Mu7/Slimwallet.git"
   },
   "sideEffects": false,
   "type": "module",

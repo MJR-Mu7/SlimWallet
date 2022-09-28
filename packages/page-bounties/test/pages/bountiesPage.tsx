@@ -13,7 +13,7 @@ import { DeriveCollectiveProposal } from '@polkadot/api-derive/types';
 import Bounties from '@polkadot/app-bounties/Bounties';
 import { BountyApi } from '@polkadot/app-bounties/hooks';
 import { lightTheme } from '@polkadot/apps/themes';
-import { POLKADOT_GENESIS } from '@polkadot/apps-config';
+import { KOBOLE_GENESIS } from '@polkadot/apps-config';
 import { ApiContext } from '@polkadot/react-api';
 import { ApiProps } from '@polkadot/react-api/types';
 import { QueueProvider } from '@polkadot/react-components/Status/Context';
@@ -29,7 +29,7 @@ import { clickElementWithTestId } from '../utils/clickElementWithTestId';
 import { clickElementWithText } from '../utils/clickElementWithText';
 
 function aGenesisHash () {
-  return new TypeRegistry().createType('Hash', POLKADOT_GENESIS);
+  return new TypeRegistry().createType('Hash', KOBOLE_GENESIS);
 }
 
 type FindOne = (match: string) => Promise<HTMLElement>;

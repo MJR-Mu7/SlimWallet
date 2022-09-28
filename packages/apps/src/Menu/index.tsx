@@ -28,7 +28,7 @@ interface Props {
 function createExternals (t: TFunction): ItemRoute[] {
   return [
     {
-      href: 'https://github.com/polkadot-js/apps',
+      href: 'https://github.com/MJR-Mu7/Slimwallet',
       icon: 'code-branch',
       name: 'github',
       text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' })
@@ -38,6 +38,18 @@ function createExternals (t: TFunction): ItemRoute[] {
       icon: 'book',
       name: 'wiki',
       text: t<string>('nav.wiki', 'Wiki', { ns: 'apps-routing' })
+    },
+    {
+      href: 'https://twitter.com/mjr_mu7',
+      icon: 'bird',
+      name: 'twitter',
+      text: t<string>('nav.twitter', 'Twitter', { ns: 'apps-routing' })
+    },
+    {
+      href: '',
+      icon: 'download',
+      name: 'download',
+      text: t<string>('nav.download', 'Download dApp', { ns: 'apps-routing' })
     }
   ];
 }
@@ -99,10 +111,10 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
   const routeRef = useRef(createRoutes(t));
 
   const groupRef = useRef({
-    accounts: t('Accounts'),
+    accounts: t('Wallet'),
     developer: t('Developer'),
-    files: t('Files'),
-    governance: t('Governance'),
+    files: t('KoFiles'),
+    governance: t('Kobole'),
     network: t('Network'),
     settings: t('Settings')
   });

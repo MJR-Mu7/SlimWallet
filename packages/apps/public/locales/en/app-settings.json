@@ -35,7 +35,7 @@
   "This is not a valid JSON object.": "This is not a valid JSON object.",
   "Translate": "Translate",
   "Unit": "Unit",
-  "Unit decides the name of 1 unit token, e.g. \"DOT\" for Polkadot": "Unit decides the name of 1 unit token, e.g. \"DOT\" for Polkadot",
+  "Unit decides the name of 1 unit token, e.g. \"KOBO\" for Kobole": "Unit decides the name of 1 unit token, e.g. \"KOBO\" for Kobole",
   "Update metadata": "Update metadata",
   "Your custom types have been added": "Your custom types have been added",
   "address prefix": "address prefix",

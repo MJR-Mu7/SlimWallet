@@ -3,11 +3,11 @@
 
 import type { Hash } from '@polkadot/types/interfaces';
 
-import { POLKADOT_GENESIS } from '@polkadot/apps-config';
+import { KOBOLE_GENESIS } from '@polkadot/apps-config';
 import { TypeRegistry } from '@polkadot/types/create';
 
 export function aGenesisHash (): Hash {
-  return new TypeRegistry().createType('Hash', POLKADOT_GENESIS);
+  return new TypeRegistry().createType('Hash', KOBOLE_GENESIS);
 }
 
 export function aHash (): Hash {

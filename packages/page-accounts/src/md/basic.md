@@ -31,10 +31,10 @@ You can recover an account from its:
 
 
 Accounts with a balance lower than the minimal amount (existential deposit) will be reaped
-(All remaining funds lost, and the account's state removed from the network). Learn more on the polkadot wiki.
+(All remaining funds lost, and the account's state removed from the network). Learn more on the kobole wiki.
 
 
-Accounts with under 1 DOT for Polkadot are considered as nonexistent for the network. If an account's
+Accounts with under 1 KOBO for Kobole are considered as nonexistent for the network. If an account's
 balance ever drops below this amount, it is removed from the network's state. In this web application,
 that account will still be visible, but with a balance of 0.
 
@@ -51,7 +51,7 @@ If the receiver already exists (read it has a balance greater than 0), it is per
 
 # Cryptography
 
-Substrate and Polkadot use Schnorrkel/Ristretto x25519 ("sr25519") as its key derivation and signing algorithm.
+Substrate and Kobole use Schnorrkel/Ristretto x25519 ("sr25519") as its key derivation and signing algorithm.
 
 Sr25519 is based on the same underlying Curve25519 as its EdDSA counterpart, Ed25519. However, it uses Schnorr signatures instead of the EdDSA scheme. Schnorr signatures bring some noticeable benefits over the ECDSA/EdDSA schemes. For one, it is more efficient and still retains the same feature set and security assumptions. Additionally, it allows for native multisignature through signature aggregation.
 

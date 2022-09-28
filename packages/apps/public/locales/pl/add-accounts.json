@@ -49,7 +49,7 @@
   "Derivation for Ledger-type accounts are only available on mnemonic seeds.": "Derywacja dla konta Ledger mozliwa wyłącznie przez mnemonic seeds.",
   "Derive account from pair": "Derywacja konta z pary",
   "Derive account via derivation path": "Derywacja konta ze scieżki derywacyjnej",
-  "Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use \"ed25519\".": "Określa jaki typ zabezpieczenia zostanie wykorzystany przy tworzeniu konta. Aby byc walidatorem na Polkadot konta kuszą użyć zebezpieczenia edwardsm\"ed25519\".",
+  "Determines what cryptography will be used to create this account. Note that to validate on Kobole, the session account must use \"ed25519\".": "Określa jaki typ zabezpieczenia zostanie wykorzystany przy tworzeniu konta. Aby byc walidatorem na Kobole konta kuszą użyć zebezpieczenia edwardsm\"ed25519\".",
   "Development": "Rozbudowa",
   "Download": "Pobierz",
   "Either approve or reject this call.": "Zaakceptuj lub odrzuć to połączenie.",

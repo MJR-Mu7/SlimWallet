@@ -1,18 +1,18 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/apps/issues",
-  "description": "An Apps portal into the Polkadot network",
+  "author": "MJR.Mu7 < @mjr_mu7 > with inspiration from Jaco Greeff <jacogr@gmail.com>",
+  "bugs": "https://github.com/MJR-Mu7/Slimwallet/issues",
+  "description": "An Apps portal into the Kobole network",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/apps#readme",
+  "homepage": "https://github.com/MJR-Mu7/Slimwallet#readme",
   "license": "Apache-2.0",
   "name": "polkadot-apps",
   "packageManager": "yarn@3.2.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/polkadot-js/apps.git"
+    "url": "https://github.com/MJR-Mu7/Slimwallet.git"
   },
   "sideEffects": false,
   "version": "0.121.2-77-x",

@@ -211,7 +211,7 @@ function VanityApp ({ className = '', onStatusChange }: Props): React.ReactEleme
         <Dropdown
           className='medium'
           defaultValue={type}
-          help={t<string>('Determines what cryptography will be used to create this account. Note that to validate on Polkadot, the session account must use "ed25519".')}
+          help={t<string>('Determines what cryptography will be used to create this account. Note that to validate on Kobole, the session account must use "ed25519".')}
           label={t<string>('keypair crypto type')}
           onChange={setType}
           options={isEthereum ? settings.availableCryptosEth : settings.availableCryptos}
