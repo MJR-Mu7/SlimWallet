@@ -10,7 +10,7 @@ import { sanitize } from './util';
 // the actual RPC node it is corrected to (system.name RPC)
 
 // defaults
-const emptyColor = '#99999';
+const emptyColor = 'linear-gradient(158deg, rgba(226,155,0,1) 0%, rgba(234,54,203,1) 100%)';
 
 // based on chain name
 // alphabetical
@@ -140,7 +140,8 @@ const chainSkyeKiwi = '#6667ab';
 const chainSnakenet = '#f653a2';
 const chainSora = '#2D2926';
 const chainSpanner = '#EC3D3D';
-const chainStandard = 'background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(42,170,244,1) 35%, rgba(10,10,10,1) 100%)';
+// const chainStandard = 'background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(42,170,244,1) 35%, rgba(10,10,10,1) 100%)';
+const chainStandard = 'linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,54,203,1) 100%)';
 const chainSwapdex = '#E94082';
 const chainSubDAO = 'linear-gradient(50deg, #F20092 0%, #FF4D5D 100%)';
 const chainTinker = '#161616';

@@ -5,7 +5,7 @@ import type { TFunction } from '../types';
 import type { LinkOption } from './types';
 
 import { defaultT } from '../util';
-import { createCustom} from './development';
+import { createCustom, createDev } from './development';
 import { prodRelayPolkadot } from './production';
 import { expandEndpoints } from './util';
 
@@ -20,7 +20,7 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
       isDisabled: false,
       isHeader: true,
       isSpaced: true,
-      text: t('rpc.header.polkadot.relay', 'Kobole & parachains', { ns: 'apps-config' }),
+      text: t('rpc.header.polkadot.relay', 'Kobole', { ns: 'apps-config' }),
       textBy: '',
       value: ''
     },
@@ -28,9 +28,10 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
     {
       isDisabled: false,
       isHeader: true,
-      text: t('rpc.header.kusama.relay', 'Kahawa & parachains', { ns: 'apps-config' }),
+      text: t('rpc.dev.custom.entry', 'Local', { ns: 'apps-config' }),
       textBy: '',
       value: ''
-    }
+    },
+    ...createDev(t)
   ].filter(({ isDisabled }) => !isDisabled);
 }

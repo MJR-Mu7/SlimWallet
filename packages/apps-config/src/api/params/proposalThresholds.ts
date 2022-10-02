@@ -3,7 +3,7 @@
 
 import type { ApiPromise } from '@polkadot/api';
 
-import { KULUPU_GENESIS, KUSAMA_GENESIS, KOBOLE_GENESIS } from '../constants';
+import { KOBOLE_GENESIS, KULUPU_GENESIS, KUSAMA_GENESIS } from '../constants';
 
 // normal fast-track proposals
 const FAST_TRACK: Record<string, number> = {
@@ -16,22 +16,22 @@ const FAST_TRACK_NO_DELAY: Record<string, number> = {
 };
 
 const PROPOSE: Record<string, number> = {
+  [KOBOLE_GENESIS]: 3 / 5,
   [KULUPU_GENESIS]: 1,
   [KUSAMA_GENESIS]: 1 / 2,
-  [KOBOLE_GENESIS]: 3 / 5,
   default: 1 / 2
 };
 
 const SLASH: Record<string, number> = {
-  [KUSAMA_GENESIS]: 1 / 2,
   [KOBOLE_GENESIS]: 3 / 4,
+  [KUSAMA_GENESIS]: 1 / 2,
   default: 1 / 2
 };
 
 const TREASURY: Record<string, number> = {
+  [KOBOLE_GENESIS]: 3 / 5,
   [KULUPU_GENESIS]: 1 / 2,
   [KUSAMA_GENESIS]: 3 / 5,
-  [KOBOLE_GENESIS]: 3 / 5,
   default: 3 / 5
 };
 

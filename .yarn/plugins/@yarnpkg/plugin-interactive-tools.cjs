@@ -73,7 +73,7 @@ If this abort() is unexpected, build with -s ASSERTIONS=1 which can give more in
   --light-color-commit-did-not-render-pattern: #cfd1d5;
   --light-color-commit-did-not-render-pattern-text: #333333;
   --light-color-commit-gradient-0: #37afa9;
-  --light-color-commit-gradient-1: #63b19e;
+  --light--commit-gradient-1: #63b19e;
   --light-color-commit-gradient-2: #80b393;
   --light-color-commit-gradient-3: #97b488;
   --light-color-commit-gradient-4: #abb67d;

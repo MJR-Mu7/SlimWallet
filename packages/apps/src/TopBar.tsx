@@ -28,7 +28,7 @@ function TopBar ({ className }: Props): React.ReactElement<Props> {
 }
 
 export default React.memo(styled(TopBar)`
-  background: #f2f2f2;
+  background: #f57d7d;
   font-size: 0.85rem;
   line-height: 1rem;
   overflow: hidden;

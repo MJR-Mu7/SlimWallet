@@ -120,6 +120,7 @@ describe('endpopints naming', (): void => {
     });
 
     it('does not contain a relay name', (): void => {
+      assert(!name.includes(' ') || !name.includes('Kobole'), `${name} should not contain "Kobole" (redundant)`);
       assert(!name.includes(' ') || !name.includes('Kusama'), `${name} should not contain "Kusama" (redundant)`);
       assert(!name.includes(' ') || !name.includes('Polkadot'), `${name} should not contain "Polkadot" (redundant)`);
       assert(!name.includes(' ') || !name.includes('Rococo'), `${name} should not contain "Rococo" (redundant)`);
