@@ -1,5 +1,5 @@
 {
-  "author": "MJR.Mu7 < @mjr_mu7 > with inspiration from Jaco Greeff <jacogr@gmail.com>",
+  "author": "MJR.Mu7 < @mjr_mu7 > with inspiration from PolkadotJs Apps",
   "bugs": "https://github.com/MJR-Mu7/Slimwallet/issues",
   "description": "An Apps portal into the Kobole network",
   "engines": {
@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/MJR-Mu7/Slimwallet#readme",
   "license": "Apache-2.0",
-  "name": "polkadot-apps",
+  "name": "kobole-apps",
   "packageManager": "yarn@3.2.0",
   "private": true,
   "repository": {
@@ -15,10 +15,10 @@
     "url": "https://github.com/MJR-Mu7/Slimwallet.git"
   },
   "sideEffects": false,
-  "version": "0.121.2-84-x",
+  "version": "0.1.1",
   "versions": {
-    "git": "0.121.2-84-x",
-    "npm": "0.121.1"
+    "git": "0.1.1",
+    "npm": "0.1.1"
   },
   "workspaces": [
     "packages/*"
@@ -83,7 +83,7 @@
     "concurrently": "^7.3.0",
     "devtron": "^1.4.0",
     "dnslink-cloudflare": "^3.0.0",
-    "electron": "^12.2.3",
+    "electron": "^15.5.7",
     "electron-builder": "22.14.13",
     "electron-builder-notarize": "^1.2.0",
     "i18next-scanner": "^4.0.0",

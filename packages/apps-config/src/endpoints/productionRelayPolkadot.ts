@@ -28,8 +28,7 @@ export const prodRelayPolkadot: EndpointOption = {
   info: 'kobole',
   text: 'Kobole',
   providers: {
-    Muchatha: 'wss://www.digitaltv.co.ke',
-    Machuma: 'wss://digitaltv.co.ke'
+    Muchatha: 'wss://apps.digitaltv.co.ke',
     // 'light client': 'light://substrate-connect/kobole'
   },
   teleport: [1000],

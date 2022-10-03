@@ -22803,7 +22803,7 @@ export const typesBundle = {
               "_enum": [
                 "Any",
                 "NonTransfer",
-                "Governance",
+                "Kobole",
                 "_Staking",
                 "NonProxy"
               ]
@@ -28991,7 +28991,7 @@ export const typesBundle = {
               "_enum": [
                 "Any",
                 "NonTransfer",
-                "Governance",
+                "Kobole",
                 "_Staking",
                 "NonProxy"
               ]

@@ -46,7 +46,7 @@ function createExternals (t: TFunction): ItemRoute[] {
       text: t<string>('nav.twitter', 'Twitter', { ns: 'apps-routing' })
     },
     {
-      href: '',
+      href: 'https://github.com/MJR-Mu7/SlimWallet/releases/tag/0.1.1',
       icon: 'download',
       name: 'download',
       text: t<string>('nav.download', 'Download dApp', { ns: 'apps-routing' })

@@ -20,7 +20,7 @@ const definitions: OverrideBundleDefinition = {
           _enum: [
             'Any',
             'NonTransfer',
-            'Governance',
+            'Kobole',
             '_Staking',
             'NonProxy'
           ]

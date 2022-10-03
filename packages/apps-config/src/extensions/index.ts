@@ -27,7 +27,23 @@ const known: Known[] = [
     },
     desc: 'Basic account injection and signer',
     name: 'polkadot-js extension'
-  }
+  },
+  {
+    all: {
+      chrome: 'https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn',
+      firefox: 'https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/'
+    },
+    desc: 'Ethereum Browser Extension',
+    name: 'metamask'
+  },
+  {
+    all: {
+      chrome: 'https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm',
+      firefox: 'https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'
+    },
+    desc: 'Finally, an efficient wide-spectrum content blocker',
+    name: 'ublock-origin'
+  },
 ];
 
 export const availableExtensions = known.reduce<Record<Browser, Extension[]>>((available, { all, desc, name }) => {
