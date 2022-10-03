@@ -83,7 +83,11 @@
     "concurrently": "^7.3.0",
     "devtron": "^1.4.0",
     "dnslink-cloudflare": "^3.0.0",
+<<<<<<< HEAD
     "electron": "^15.5.7",
+=======
+    "electron": "^15.5.5",
+>>>>>>> 57e0a994b605594faecaa1939b759e4fc08cfc49
     "electron-builder": "22.14.13",
     "electron-builder-notarize": "^1.2.0",
     "i18next-scanner": "^4.0.0",
